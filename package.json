@@ -1,0 +1,22 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "e2e test using selenium, webdriverio, appium and jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethannguyens/e2e.git"
+  },
+  "keywords": [
+    "e2e"
+  ],
+  "author": "Ethan Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethannguyens/e2e/issues"
+  },
+  "homepage": "https://github.com/ethannguyens/e2e#readme"
+}
