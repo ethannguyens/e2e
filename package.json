@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/ethannguyens/e2e/issues"
   },
-  "homepage": "https://github.com/ethannguyens/e2e#readme"
+  "homepage": "https://github.com/ethannguyens/e2e#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "selenium-standalone": "^6.0.1",
+    "webdriverio": "^4.6.2"
+  }
 }
