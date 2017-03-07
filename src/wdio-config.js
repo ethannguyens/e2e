@@ -29,7 +29,7 @@ let opts = {
     logLevel: 'silent',
     coloredLogs: true,
     screenshotPath: 'shots',
-    baseUrl: 'http://webdriver.io',
+    baseUrl: 'http://localhost',
     waitforTimeout: 10000,
     framework: 'jasmine',
 
@@ -46,10 +46,11 @@ let opts = {
      * hooks
      */
     onPrepare: function() {
-        console.log('let\'s go');
+        console.log('E2E STARTED');
     },
     onComplete: function() {
-        console.log('that\'s it');
+        console.log('E2E ENDED');
+
     }
 
 };
